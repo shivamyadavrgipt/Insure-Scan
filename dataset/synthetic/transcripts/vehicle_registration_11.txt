@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 81 GH 5315
+Owner Name: Meera Patel
+Maker: MAHINDRA
+Model: XUV300
+Fuel Type: DIESEL
+Chassis Number: DEMOCHS957640545
+Engine Number: DEMOENG660992
+Registration Date: 15-03-2026
+
+This document contains fictional demonstration information.

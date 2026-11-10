@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-92653
+Patient Name: Kavya Verma
+Hospital Name: DEMO CARE CENTRE
+Admission Date: 24-07-2026
+Discharge Date: 27-05-2026
+Consultation Charges: INR 483
+Medicine Charges: INR 5,221
+Total Amount: INR 5,704
+
+This document contains fictional demonstration information.

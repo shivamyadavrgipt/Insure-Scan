@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-905869
+Insured Name: Aditya Khan
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 82 CD 9959
+Insured Declared Value: INR 848,000
+Premium Amount: INR 10,999
+Coverage Type: Comprehensive
+
+This document contains fictional demonstration information.

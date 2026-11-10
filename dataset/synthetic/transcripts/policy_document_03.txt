@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-960638
+Insured Name: Kavya Gupta
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 72 AB 4250
+Insured Declared Value: INR 40,000
+Premium Amount: INR 16,165
+Coverage Type: Comprehensive
+
+This document contains fictional demonstration information.

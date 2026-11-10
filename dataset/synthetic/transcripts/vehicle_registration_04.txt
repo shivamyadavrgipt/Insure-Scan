@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 50 GH 8618
+Owner Name: Kavya Verma
+Maker: MARUTI
+Model: XUV300
+Fuel Type: CNG
+Chassis Number: DEMOCHS538327713
+Engine Number: DEMOENG497448
+Registration Date: 05-06-2026
+
+This document contains fictional demonstration information.

@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-99761
+Policy Number: DEMO-POL-182446
+Policy Holder: Ishita Singh
+Vehicle Registration: UP 90 EF 2648
+Incident Date: 25-01-2026
+Claim Amount: INR 102,000
+Repair Workshop: DEMO AUTO CARE
+Invoice Number: DEMO-INV-88247
+
+This document contains fictional demonstration information.

@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-95934
+Patient Name: Meera Mishra
+Hospital Name: SAMPLE CITY HOSPITAL
+Admission Date: 04-02-2026
+Discharge Date: 27-01-2026
+Consultation Charges: INR 1,213
+Medicine Charges: INR 7,319
+Total Amount: INR 8,532
+
+This document contains fictional demonstration information.

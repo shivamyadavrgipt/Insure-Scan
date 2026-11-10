@@ -1,0 +1,19 @@
+# Core DIP
+opencv-python>=4.9,<5
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+Pillow>=10,<13
+
+# Testing
+pytest>=8,<10
+
+# Later project phases (install when those modules are introduced)
+pytesseract>=0.3.13
+# fastapi>=0.115
+# uvicorn[standard]>=0.30
+# python-multipart>=0.0.9
+# sqlalchemy>=2.0
+
+# Phase 8 ML baseline
+scikit-learn>=1.4,<2
+joblib>=1.3

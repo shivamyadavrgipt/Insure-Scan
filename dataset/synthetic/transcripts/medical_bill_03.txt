@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-11973
+Patient Name: Arjun Das
+Hospital Name: DEMO CARE CENTRE
+Admission Date: 02-05-2026
+Discharge Date: 01-11-2026
+Consultation Charges: INR 2,846
+Medicine Charges: INR 3,226
+Total Amount: INR 6,072
+
+This document contains fictional demonstration information.

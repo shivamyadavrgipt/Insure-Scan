@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-25035
+Patient Name: Kavya Sharma
+Hospital Name: TEST MULTISPECIALITY HOSPITAL
+Admission Date: 15-12-2026
+Discharge Date: 04-01-2026
+Consultation Charges: INR 2,895
+Medicine Charges: INR 4,112
+Total Amount: INR 7,007
+
+This document contains fictional demonstration information.

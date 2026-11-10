@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 69 EF 6495
+Owner Name: Arjun Patel
+Maker: HYUNDAI
+Model: SWIFT
+Fuel Type: DIESEL
+Chassis Number: DEMOCHS906053965
+Engine Number: DEMOENG540471
+Registration Date: 26-01-2026
+
+This document contains fictional demonstration information.

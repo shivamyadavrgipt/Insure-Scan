@@ -1,0 +1,1 @@
+SAMPLE MOTOR INSURANCE CLAIM FORM Claim Reference: DEMO—2026—0042 Policy Number: POL—SAMPLE-908172 Policy Holder: SAMPLE CUSTOMER Vehicle Registration: UP 00 AB 1234 Incident Date: 08-11-2026 Claim Amount: INR 48,500 Repair Workshop: SAMPLE AUTO REPAIRS Invoice Number: INV-DEMO-—7781 This is synthetic demonstration data. Not a valid insurance document\n

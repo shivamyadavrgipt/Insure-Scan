@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-26797
+Workshop Name: TEST VEHICLE REPAIRS
+Customer Name: Ishita Yadav
+Vehicle Registration: UP 48 EF 5959
+Repair Date: 21-09-2026
+Labour Charges: INR 1,582
+Parts Cost: INR 46,010
+Total Amount: INR 47,592
+
+This document contains fictional demonstration information.

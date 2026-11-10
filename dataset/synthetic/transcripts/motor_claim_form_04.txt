@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-46297
+Policy Number: DEMO-POL-301436
+Policy Holder: Ishita Das
+Vehicle Registration: UP 59 CD 8633
+Incident Date: 13-09-2026
+Claim Amount: INR 117,500
+Repair Workshop: TEST VEHICLE REPAIRS
+Invoice Number: DEMO-INV-12028
+
+This document contains fictional demonstration information.

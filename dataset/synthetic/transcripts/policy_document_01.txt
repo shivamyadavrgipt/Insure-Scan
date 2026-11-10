@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-838932
+Insured Name: Ishita Rao
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 76 GH 7114
+Insured Declared Value: INR 1,176,000
+Premium Amount: INR 5,688
+Coverage Type: Own Damage
+
+This document contains fictional demonstration information.

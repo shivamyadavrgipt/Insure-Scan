@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 57 JK 3818
+Owner Name: Ananya Patel
+Maker: HONDA
+Model: XUV300
+Fuel Type: CNG
+Chassis Number: DEMOCHS141794493
+Engine Number: DEMOENG439650
+Registration Date: 14-06-2026
+
+This document contains fictional demonstration information.

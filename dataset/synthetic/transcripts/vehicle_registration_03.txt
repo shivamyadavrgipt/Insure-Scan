@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 58 EF 4990
+Owner Name: Dev Rao
+Maker: TATA
+Model: CITY
+Fuel Type: PETROL
+Chassis Number: DEMOCHS763439309
+Engine Number: DEMOENG457718
+Registration Date: 19-06-2026
+
+This document contains fictional demonstration information.

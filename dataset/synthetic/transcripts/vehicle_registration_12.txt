@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 66 CD 4249
+Owner Name: Ishita Das
+Maker: MAHINDRA
+Model: XUV300
+Fuel Type: PETROL
+Chassis Number: DEMOCHS726769907
+Engine Number: DEMOENG395060
+Registration Date: 10-07-2026
+
+This document contains fictional demonstration information.

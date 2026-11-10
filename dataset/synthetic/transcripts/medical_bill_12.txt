@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-55195
+Patient Name: Rohan Sharma
+Hospital Name: DEMO CARE CENTRE
+Admission Date: 14-03-2026
+Discharge Date: 02-07-2026
+Consultation Charges: INR 2,569
+Medicine Charges: INR 7,539
+Total Amount: INR 10,108
+
+This document contains fictional demonstration information.

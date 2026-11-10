@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-72053
+Patient Name: Ananya Das
+Hospital Name: SAMPLE CITY HOSPITAL
+Admission Date: 01-01-2026
+Discharge Date: 15-11-2026
+Consultation Charges: INR 2,328
+Medicine Charges: INR 9,009
+Total Amount: INR 11,337
+
+This document contains fictional demonstration information.

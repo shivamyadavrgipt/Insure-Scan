@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-35697
+Patient Name: Meera Verma
+Hospital Name: DEMO CARE CENTRE
+Admission Date: 19-02-2026
+Discharge Date: 10-07-2026
+Consultation Charges: INR 3,000
+Medicine Charges: INR 1,652
+Total Amount: INR 4,652
+
+This document contains fictional demonstration information.

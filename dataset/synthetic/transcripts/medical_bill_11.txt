@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-92068
+Patient Name: Arjun Singh
+Hospital Name: TEST MULTISPECIALITY HOSPITAL
+Admission Date: 23-04-2026
+Discharge Date: 27-08-2026
+Consultation Charges: INR 464
+Medicine Charges: INR 4,934
+Total Amount: INR 5,398
+
+This document contains fictional demonstration information.

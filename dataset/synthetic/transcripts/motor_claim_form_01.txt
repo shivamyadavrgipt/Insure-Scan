@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-52886
+Policy Number: DEMO-POL-434651
+Policy Holder: Ananya Patel
+Vehicle Registration: UP 82 GH 7113
+Incident Date: 11-07-2026
+Claim Amount: INR 51,000
+Repair Workshop: DEMO GARAGE
+Invoice Number: DEMO-INV-83356
+
+This document contains fictional demonstration information.

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InsureScan | Document Intelligence</title>
+<style>
+:root{--navy:#132238;--blue:#2563eb;--blue2:#eaf1ff;--ink:#182538;--muted:#718096;--line:#e6ebf2;--bg:#f5f7fb;--green:#15803d;--amber:#a16207}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial}
+button,input{font:inherit}.app{min-height:100vh;display:grid;grid-template-columns:250px 1fr}
+.sidebar{background:var(--navy);color:#d7e0ec;padding:25px 18px;display:flex;flex-direction:column}
+.brand{display:flex;align-items:center;gap:11px;padding:4px 8px 30px}.brand-mark{width:37px;height:37px;border-radius:11px;background:#3478f6;display:grid;place-items:center;color:white;font-weight:900;font-size:19px}.brand strong{display:block;font-size:16px;color:white;letter-spacing:.2px}.brand small{color:#9eafc5;font-size:11px}
+.nav-label{font-size:10px;letter-spacing:1.3px;color:#7f91a9;padding:14px 10px 8px}.nav-item{display:flex;gap:12px;align-items:center;padding:11px 12px;border-radius:9px;color:#c4cfdd;margin:2px 0}.nav-item.active{background:#203c60;color:white}.nav-icon{width:20px;text-align:center;font-size:16px}.sidebar-bottom{margin-top:auto;background:#1b304b;border:1px solid #30435c;padding:14px;border-radius:12px;font-size:12px;color:#aebdd0;line-height:1.6}.sidebar-bottom b{color:white}
+.main{min-width:0}.topbar{height:70px;background:white;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 34px}.crumb{color:var(--muted);font-size:13px}.top-right{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:12px}.avatar{width:32px;height:32px;border-radius:50%;background:#e7efff;color:#2458b6;display:grid;place-items:center;font-weight:800}
+.content{max-width:1180px;margin:0 auto;padding:34px}.heading{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:25px}.eyebrow{font-size:11px;font-weight:800;letter-spacing:1.2px;color:var(--blue);text-transform:uppercase}.heading h1{font-size:27px;margin:7px 0 6px;letter-spacing:-.6px}.heading p{margin:0;color:var(--muted);font-size:13px}.demo-pill{background:#edf8f0;color:#24713b;border:1px solid #d7efdd;padding:7px 11px;border-radius:30px;font-size:11px;font-weight:700;white-space:nowrap}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:20px}.stat{background:white;border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:flex;align-items:center;gap:13px}.stat-icon{width:39px;height:39px;border-radius:10px;background:#edf3ff;color:#2b63cb;display:grid;place-items:center;font-size:19px}.stat small{display:block;color:var(--muted);font-size:11px}.stat b{display:block;font-size:17px;margin-top:3px}
+.workspace{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:18px;align-items:start}.panel{background:white;border:1px solid var(--line);border-radius:13px;overflow:hidden}.panel-head{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.panel-head h2{font-size:14px;margin:0}.step{font-size:11px;color:var(--muted)}.panel-body{padding:20px}
+.drop{border:1.5px dashed #b9c8dd;border-radius:12px;background:#fafcff;min-height:235px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;transition:.2s}.drop.drag{background:#edf4ff;border-color:var(--blue)}.upload-icon{width:52px;height:52px;border-radius:15px;background:#eaf1ff;color:#2864d5;display:grid;place-items:center;font-size:25px;margin-bottom:13px}.drop h3{margin:0 0 6px;font-size:15px}.drop p{margin:0;color:var(--muted);font-size:12px;line-height:1.6}.browse{margin-top:16px;background:var(--blue);color:white;border:0;border-radius:8px;padding:10px 17px;font-size:12px;font-weight:700;cursor:pointer}.file-meta{display:none;margin-top:15px;padding:11px 13px;background:#f4f7fb;border:1px solid var(--line);border-radius:8px;align-items:center;justify-content:space-between;font-size:12px}.file-meta.show{display:flex}.file-meta span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.file-meta button{border:0;background:none;color:#c24141;cursor:pointer}.analyze{width:100%;margin-top:15px;background:var(--navy);color:white;border:0;border-radius:9px;padding:12px;font-weight:700;cursor:pointer}.analyze:disabled{opacity:.45;cursor:not-allowed}.hint{font-size:11px;color:var(--muted);margin-top:13px;line-height:1.6}
+.steps{display:grid;gap:0}.step-row{display:flex;gap:12px;padding:14px 0;border-bottom:1px solid #eef1f5}.step-row:last-child{border:0}.step-no{width:28px;height:28px;border-radius:8px;background:#eef3fb;color:#315f9f;display:grid;place-items:center;font-size:11px;font-weight:800;flex:none}.step-row b{display:block;font-size:12px;margin:1px 0 4px}.step-row small{color:var(--muted);font-size:11px;line-height:1.5}
+.result{display:none;margin-top:19px}.result.show{display:block}.result-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.result-top h2{margin:0;font-size:16px}.type-badge{background:#e9f2ff;color:#2457a5;border-radius:30px;padding:6px 10px;font-size:11px;font-weight:800}.result-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.field{border:1px solid var(--line);border-radius:9px;padding:11px;min-width:0}.field small{display:block;text-transform:uppercase;letter-spacing:.5px;font-size:9px;color:var(--muted)}.field b{display:block;font-size:12px;margin-top:6px;overflow-wrap:anywhere}.field em{display:block;font-size:10px;color:var(--muted);font-style:normal;margin-top:4px}.review{padding:11px 13px;background:#fff7e6;border:1px solid #f3dfb2;color:#8a5a05;border-radius:9px;font-size:11px;line-height:1.6;margin-top:12px}.review.ok{background:#eef9f0;border-color:#d8eedc;color:#216b34}.ocr{margin-top:13px}.ocr summary{font-size:12px;font-weight:700;cursor:pointer}.ocr pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f7f9fc;border:1px solid var(--line);border-radius:8px;padding:12px;font-size:11px;color:#435168;max-height:230px;overflow:auto}
+.notice{font-size:11px;color:#78869a;margin-top:20px;line-height:1.6}.toast{display:none;margin-top:12px;padding:11px;border-radius:8px;background:#fff0f0;color:#a52c2c;font-size:12px}.toast.show{display:block}
+@media(max-width:900px){.app{grid-template-columns:1fr}.sidebar{display:none}.workspace{grid-template-columns:1fr}.content{padding:24px 18px}.topbar{padding:0 18px}}
+@media(max-width:560px){.stats{grid-template-columns:1fr}.heading{display:block}.demo-pill{display:inline-block;margin-top:14px}.topbar{height:58px}.content{padding-top:22px}.heading h1{font-size:23px}.result-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+ <div class="brand"><div class="brand-mark">I</div><div><strong>InsureScan</strong><small>DOCUMENT INTELLIGENCE</small></div></div>
+ <div class="nav-label">WORKSPACE</div>
+ <div class="nav-item active"><span class="nav-icon">▣</span> Document analysis</div>
+ <div class="nav-item"><span class="nav-icon">⌕</span> OCR & extraction</div>
+ <div class="nav-item"><span class="nav-icon">▤</span> DIP pipeline</div>
+ <div class="nav-label">PROJECT</div>
+ <div class="nav-item"><span class="nav-icon">◈</span> About this prototype</div>
+ <div class="sidebar-bottom"><b>Academic prototype</b><br>Local processing demo<br>Human verification required</div>
+</aside>
+<section class="main">
+ <header class="topbar"><div class="crumb">Workspace&nbsp; / &nbsp;<b>Document analysis</b></div><div class="top-right"><span>LOCAL DEMO</span><div class="avatar">ID</div></div></header>
+ <main class="content">
+  <div class="heading"><div><div class="eyebrow">AI-assisted intake workflow</div><h1>Insurance Document Intelligence</h1><p>Transform scanned insurance documents into structured, reviewable information.</p></div><div class="demo-pill">● SYSTEM READY · LOCAL</div></div>
+  <div class="stats">
+   <div class="stat"><div class="stat-icon">▧</div><div><small>Document categories</small><b>5 supported types</b></div></div>
+   <div class="stat"><div class="stat-icon">⌗</div><div><small>Processing stages</small><b>OCR + DIP + ML</b></div></div>
+   <div class="stat"><div class="stat-icon">✓</div><div><small>Data handling</small><b>Local processing</b></div></div>
+  </div>
+  <div class="workspace">
+   <section class="panel">
+    <div class="panel-head"><h2>Upload document</h2><span class="step">STEP 01 / 02</span></div>
+    <div class="panel-body">
+     <div class="drop" id="drop">
+      <div class="upload-icon">⇧</div><h3>Drag & drop your document here</h3>
+      <p>Upload a scanned insurance document for automated analysis.<br>Supported formats: PNG, JPG, TIFF · Maximum 15 MB</p>
+      <button class="browse" id="browse">Browse files</button>
+      <input type="file" id="file" accept=".png,.jpg,.jpeg,.tif,.tiff" hidden>
+     </div>
+     <div class="file-meta" id="fileMeta"><span id="fileName"></span><button id="remove">Remove</button></div>
+     <button class="analyze" id="analyze" disabled>Analyze document&nbsp; →</button>
+     <div class="toast" id="toast"></div>
+     <div class="hint">For a quick demonstration, use the sample images inside <code>dataset/synthetic/images/</code>.</div>
+    </div>
+   </section>
+   <section class="panel">
+    <div class="panel-head"><h2>Processing pipeline</h2><span class="step">AUTOMATED</span></div>
+    <div class="panel-body steps">
+     <div class="step-row"><div class="step-no">01</div><div><b>Image enhancement</b><small>Grayscale conversion, contrast enhancement, denoising and thresholding.</small></div></div>
+     <div class="step-row"><div class="step-no">02</div><div><b>Segmentation</b><small>Connected components, text regions, line and word segmentation.</small></div></div>
+     <div class="step-row"><div class="step-no">03</div><div><b>Optical character recognition</b><small>Tesseract OCR with word-level confidence and coordinates.</small></div></div>
+     <div class="step-row"><div class="step-no">04</div><div><b>Classification & extraction</b><small>Document type prediction and evidence-backed field extraction.</small></div></div>
+     <div class="step-row"><div class="step-no">05</div><div><b>Validation & review</b><small>Basic format checks and human-review routing for missing fields.</small></div></div>
+    </div>
+   </section>
+  </div>
+  <section class="panel result" id="result">
+   <div class="panel-head"><h2>Analysis results</h2><span class="step" id="processingTime"></span></div>
+   <div class="panel-body">
+    <div class="result-top"><div><div class="eyebrow">Detected document type</div><h2 id="docType" style="margin-top:5px">—</h2></div><span class="type-badge" id="confidence">OCR confidence —</span></div>
+    <div class="result-grid" id="fields"></div>
+    <div id="review"></div>
+    <details class="ocr"><summary>View recognized OCR text</summary><pre id="ocrText"></pre></details>
+   </div>
+  </section>
+  <p class="notice">⚠ Academic demonstration only. Sample documents contain fictional data. OCR and extracted values may be incorrect. This prototype does not verify identity, policy validity, vehicle ownership or claim eligibility. Human review is mandatory.</p>
+ </main>
+</section>
+</div>
+<script>
+const fileInput=document.getElementById('file'),drop=document.getElementById('drop'),browse=document.getElementById('browse'),analyze=document.getElementById('analyze'),meta=document.getElementById('fileMeta'),toast=document.getElementById('toast');
+let selected=null;
+function choose(file){if(!file)return;const ok=/\.(png|jpe?g|tiff?)$/i.test(file.name);if(!ok){showError('Please select a PNG, JPG or TIFF image.');return;}if(file.size>15*1024*1024){showError('File exceeds the 15 MB limit.');return;}selected=file;document.getElementById('fileName').textContent=file.name+' · '+(file.size/1024).toFixed(1)+' KB';meta.classList.add('show');analyze.disabled=false;toast.classList.remove('show');}
+function showError(msg){toast.textContent=msg;toast.classList.add('show');}
+browse.addEventListener('click',()=>fileInput.click());drop.addEventListener('click',e=>{if(e.target===drop||e.target.closest('.upload-icon')||e.target.tagName==='H3'||e.target.tagName==='P')fileInput.click();});
+fileInput.addEventListener('change',e=>choose(e.target.files[0]));
+document.getElementById('remove').addEventListener('click',()=>{selected=null;fileInput.value='';meta.classList.remove('show');analyze.disabled=true;});
+['dragenter','dragover'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add('drag');}));
+['dragleave','drop'].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove('drag');}));
+drop.addEventListener('drop',e=>choose(e.dataTransfer.files[0]));
+analyze.addEventListener('click',async()=>{if(!selected)return;analyze.disabled=true;analyze.textContent='Processing document…';toast.classList.remove('show');const start=performance.now();const data=new FormData();data.append('document',selected);try{const res=await fetch('/api/analyze',{method:'POST',body:data});const result=await res.json();if(!res.ok)throw new Error(result.error||'Processing failed');render(result);document.getElementById('processingTime').textContent=((performance.now()-start)/1000).toFixed(2)+' sec';document.getElementById('result').classList.add('show');document.getElementById('result').scrollIntoView({behavior:'smooth',block:'start'});}catch(err){showError(err.message+' Check Tesseract installation and image format.');}finally{analyze.disabled=!selected;analyze.textContent='Analyze document  →';}});
+function render(r){document.getElementById('docType').textContent=(r.document_type||'unknown').replaceAll('_',' ').replace(/\b\w/g,c=>c.toUpperCase());document.getElementById('confidence').textContent='OCR confidence '+(r.ocr?.mean_confidence??'—')+'%';const box=document.getElementById('fields');box.innerHTML='';Object.entries(r.fields||{}).forEach(([k,v])=>{const el=document.createElement('div');el.className='field';const small=document.createElement('small');small.textContent=k.replaceAll('_',' ');const b=document.createElement('b');b.textContent=v.value??'Not found';const em=document.createElement('em');em.textContent=v.status==='missing'?'Needs input / review':'Extracted from OCR text';el.append(small,b,em);box.append(el);});const review=document.getElementById('review');review.className=r.validation?.requires_human_review?'review':'review ok';review.textContent=r.validation?.requires_human_review?'⚠ Human review recommended: '+(r.validation.review_reasons||[]).join('; '):'✓ Basic format checks passed. This is not official verification.';document.getElementById('ocrText').textContent=r.ocr_text||'';}
+</script>
+</body></html>

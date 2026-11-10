@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-14859
+Patient Name: Kavya Rao
+Hospital Name: TEST MULTISPECIALITY HOSPITAL
+Admission Date: 13-11-2026
+Discharge Date: 07-05-2026
+Consultation Charges: INR 2,664
+Medicine Charges: INR 4,591
+Total Amount: INR 7,255
+
+This document contains fictional demonstration information.

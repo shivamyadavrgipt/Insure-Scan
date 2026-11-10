@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-436999
+Insured Name: Kavya Sharma
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 73 AB 7419
+Insured Declared Value: INR 800,000
+Premium Amount: INR 5,912
+Coverage Type: Own Damage
+
+This document contains fictional demonstration information.

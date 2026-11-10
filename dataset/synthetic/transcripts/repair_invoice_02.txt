@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-44679
+Workshop Name: DEMO GARAGE
+Customer Name: Ishita Das
+Vehicle Registration: UP 84 EF 1285
+Repair Date: 26-09-2026
+Labour Charges: INR 6,007
+Parts Cost: INR 42,853
+Total Amount: INR 48,860
+
+This document contains fictional demonstration information.

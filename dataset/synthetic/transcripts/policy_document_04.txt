@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-634235
+Insured Name: Aarav Patel
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 55 EF 6576
+Insured Declared Value: INR 132,000
+Premium Amount: INR 8,410
+Coverage Type: Third Party
+
+This document contains fictional demonstration information.

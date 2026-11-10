@@ -1,0 +1,97 @@
+{
+  "model": "TF-IDF word/bigram features + LinearSVC",
+  "dataset": "synthetic academic demonstration corpus",
+  "train_documents": 40,
+  "test_documents": 10,
+  "accuracy": 1.0,
+  "classification_report": {
+    "medical_bill": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "motor_claim_form": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "policy_document": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "repair_invoice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "vehicle_registration": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    }
+  },
+  "labels": [
+    "medical_bill",
+    "motor_claim_form",
+    "policy_document",
+    "repair_invoice",
+    "vehicle_registration"
+  ],
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "warning": "Synthetic dataset metrics are a pipeline demonstration, not evidence of real-world insurance performance."
+}

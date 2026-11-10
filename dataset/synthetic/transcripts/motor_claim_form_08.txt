@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-17360
+Policy Number: DEMO-POL-332834
+Policy Holder: Vivaan Singh
+Vehicle Registration: UP 99 JK 8747
+Incident Date: 07-05-2026
+Claim Amount: INR 69,000
+Repair Workshop: SAMPLE MOTOR WORKS
+Invoice Number: DEMO-INV-14125
+
+This document contains fictional demonstration information.

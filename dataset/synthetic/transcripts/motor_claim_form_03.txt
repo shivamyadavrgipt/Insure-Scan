@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-29070
+Policy Number: DEMO-POL-185998
+Policy Holder: Kavya Verma
+Vehicle Registration: UP 89 CD 1494
+Incident Date: 16-11-2026
+Claim Amount: INR 74,500
+Repair Workshop: TEST VEHICLE REPAIRS
+Invoice Number: DEMO-INV-56398
+
+This document contains fictional demonstration information.

@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-725943
+Insured Name: Kavya Khan
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 48 GH 1458
+Insured Declared Value: INR 256,000
+Premium Amount: INR 5,210
+Coverage Type: Third Party
+
+This document contains fictional demonstration information.

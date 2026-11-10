@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-49544
+Workshop Name: TEST VEHICLE REPAIRS
+Customer Name: Aditya Gupta
+Vehicle Registration: UP 30 GH 5446
+Repair Date: 17-09-2026
+Labour Charges: INR 5,895
+Parts Cost: INR 28,779
+Total Amount: INR 34,674
+
+This document contains fictional demonstration information.

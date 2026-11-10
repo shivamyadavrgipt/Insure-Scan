@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-60713
+Policy Number: DEMO-POL-123956
+Policy Holder: Meera Gupta
+Vehicle Registration: UP 80 GH 2163
+Incident Date: 08-03-2026
+Claim Amount: INR 5,000
+Repair Workshop: DEMO AUTO CARE
+Invoice Number: DEMO-INV-74325
+
+This document contains fictional demonstration information.

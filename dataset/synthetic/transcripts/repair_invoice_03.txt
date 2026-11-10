@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-68466
+Workshop Name: DEMO GARAGE
+Customer Name: Rohan Singh
+Vehicle Registration: UP 86 GH 8291
+Repair Date: 03-05-2026
+Labour Charges: INR 3,082
+Parts Cost: INR 22,187
+Total Amount: INR 25,269
+
+This document contains fictional demonstration information.

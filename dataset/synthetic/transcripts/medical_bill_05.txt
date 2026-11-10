@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-84985
+Patient Name: Ishita Khan
+Hospital Name: SAMPLE CITY HOSPITAL
+Admission Date: 26-11-2026
+Discharge Date: 01-07-2026
+Consultation Charges: INR 2,803
+Medicine Charges: INR 7,321
+Total Amount: INR 10,124
+
+This document contains fictional demonstration information.

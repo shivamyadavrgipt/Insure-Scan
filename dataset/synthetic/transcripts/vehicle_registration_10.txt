@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 23 JK 2029
+Owner Name: Ishita Patel
+Maker: MARUTI
+Model: SWIFT
+Fuel Type: PETROL
+Chassis Number: DEMOCHS779531466
+Engine Number: DEMOENG839333
+Registration Date: 11-06-2026
+
+This document contains fictional demonstration information.

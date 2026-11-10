@@ -1,0 +1,44 @@
+[
+  {
+    "method": "original",
+    "mean_confidence": 89.96,
+    "word_count": 46,
+    "recognized_characters": 353
+  },
+  {
+    "method": "grayscale",
+    "mean_confidence": 89.96,
+    "word_count": 46,
+    "recognized_characters": 353
+  },
+  {
+    "method": "clahe",
+    "mean_confidence": 89.89,
+    "word_count": 46,
+    "recognized_characters": 354
+  },
+  {
+    "method": "otsu",
+    "mean_confidence": 87.46,
+    "word_count": 46,
+    "recognized_characters": 354
+  },
+  {
+    "method": "adaptive_mean",
+    "mean_confidence": 93.09,
+    "word_count": 46,
+    "recognized_characters": 354
+  },
+  {
+    "method": "adaptive_gaussian",
+    "mean_confidence": 88.39,
+    "word_count": 46,
+    "recognized_characters": 354
+  },
+  {
+    "method": "morphology_opening",
+    "mean_confidence": 89.44,
+    "word_count": 36,
+    "recognized_characters": 285
+  }
+]

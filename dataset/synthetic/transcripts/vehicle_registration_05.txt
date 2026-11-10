@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 46 CD 1569
+Owner Name: Kavya Das
+Maker: HONDA
+Model: CITY
+Fuel Type: DIESEL
+Chassis Number: DEMOCHS907358059
+Engine Number: DEMOENG254133
+Registration Date: 01-11-2026
+
+This document contains fictional demonstration information.

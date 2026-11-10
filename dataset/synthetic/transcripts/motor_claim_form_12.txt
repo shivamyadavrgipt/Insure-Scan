@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-26096
+Policy Number: DEMO-POL-440762
+Policy Holder: Arjun Mishra
+Vehicle Registration: UP 76 JK 4096
+Incident Date: 03-07-2026
+Claim Amount: INR 130,500
+Repair Workshop: SAMPLE MOTOR WORKS
+Invoice Number: DEMO-INV-93956
+
+This document contains fictional demonstration information.

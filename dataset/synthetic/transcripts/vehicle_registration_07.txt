@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 94 GH 7587
+Owner Name: Ananya Singh
+Maker: HYUNDAI
+Model: NEXON
+Fuel Type: DIESEL
+Chassis Number: DEMOCHS381919073
+Engine Number: DEMOENG544977
+Registration Date: 24-09-2026
+
+This document contains fictional demonstration information.

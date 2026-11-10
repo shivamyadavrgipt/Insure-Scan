@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-16344
+Patient Name: Ananya Gupta
+Hospital Name: DEMO CARE CENTRE
+Admission Date: 27-11-2026
+Discharge Date: 18-12-2026
+Consultation Charges: INR 2,083
+Medicine Charges: INR 4,084
+Total Amount: INR 6,167
+
+This document contains fictional demonstration information.

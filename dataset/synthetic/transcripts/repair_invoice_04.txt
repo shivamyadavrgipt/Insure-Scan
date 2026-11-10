@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-30724
+Workshop Name: DEMO AUTO CARE
+Customer Name: Rohan Patel
+Vehicle Registration: UP 25 GH 4349
+Repair Date: 17-06-2026
+Labour Charges: INR 6,117
+Parts Cost: INR 28,719
+Total Amount: INR 34,836
+
+This document contains fictional demonstration information.

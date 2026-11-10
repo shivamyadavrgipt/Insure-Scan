@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-95072
+Workshop Name: TEST VEHICLE REPAIRS
+Customer Name: Ananya Singh
+Vehicle Registration: UP 21 GH 5565
+Repair Date: 09-10-2026
+Labour Charges: INR 4,561
+Parts Cost: INR 42,255
+Total Amount: INR 46,816
+
+This document contains fictional demonstration information.

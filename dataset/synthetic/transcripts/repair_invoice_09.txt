@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-77114
+Workshop Name: DEMO AUTO CARE
+Customer Name: Meera Khan
+Vehicle Registration: UP 67 CD 9518
+Repair Date: 08-10-2026
+Labour Charges: INR 3,612
+Parts Cost: INR 16,799
+Total Amount: INR 20,411
+
+This document contains fictional demonstration information.

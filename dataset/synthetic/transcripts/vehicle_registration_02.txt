@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 23 CD 9128
+Owner Name: Ananya Gupta
+Maker: TATA
+Model: NEXON
+Fuel Type: PETROL
+Chassis Number: DEMOCHS778166332
+Engine Number: DEMOENG662506
+Registration Date: 21-06-2026
+
+This document contains fictional demonstration information.

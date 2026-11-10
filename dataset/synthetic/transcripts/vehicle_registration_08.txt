@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 62 CD 9228
+Owner Name: Vivaan Verma
+Maker: TATA
+Model: NEXON
+Fuel Type: DIESEL
+Chassis Number: DEMOCHS293496308
+Engine Number: DEMOENG329378
+Registration Date: 12-10-2026
+
+This document contains fictional demonstration information.

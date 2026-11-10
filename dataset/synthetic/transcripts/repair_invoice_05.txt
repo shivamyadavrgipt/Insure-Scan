@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-40503
+Workshop Name: DEMO AUTO CARE
+Customer Name: Rohan Rao
+Vehicle Registration: UP 61 EF 4383
+Repair Date: 07-01-2026
+Labour Charges: INR 7,050
+Parts Cost: INR 43,321
+Total Amount: INR 50,371
+
+This document contains fictional demonstration information.

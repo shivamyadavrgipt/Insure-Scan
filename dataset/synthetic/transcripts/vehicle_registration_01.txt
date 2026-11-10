@@ -1,0 +1,13 @@
+VEHICLE REGISTRATION CERTIFICATE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Registration Number: UP 13 JK 5781
+Owner Name: Arjun Das
+Maker: MAHINDRA
+Model: i20
+Fuel Type: DIESEL
+Chassis Number: DEMOCHS480328096
+Engine Number: DEMOENG730555
+Registration Date: 17-09-2026
+
+This document contains fictional demonstration information.

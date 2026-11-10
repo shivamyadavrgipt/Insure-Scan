@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-86525
+Policy Number: DEMO-POL-803356
+Policy Holder: Vivaan Gupta
+Vehicle Registration: UP 26 GH 8088
+Incident Date: 11-07-2026
+Claim Amount: INR 45,500
+Repair Workshop: SAMPLE MOTOR WORKS
+Invoice Number: DEMO-INV-26214
+
+This document contains fictional demonstration information.

@@ -1,0 +1,13 @@
+HOSPITAL MEDICAL BILL
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Bill Number: DEMO-MED-75648
+Patient Name: Aarav Singh
+Hospital Name: DEMO CARE CENTRE
+Admission Date: 05-01-2026
+Discharge Date: 25-02-2026
+Consultation Charges: INR 2,572
+Medicine Charges: INR 3,749
+Total Amount: INR 6,321
+
+This document contains fictional demonstration information.

@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-50176
+Policy Number: DEMO-POL-377439
+Policy Holder: Meera Singh
+Vehicle Registration: UP 29 CD 4380
+Incident Date: 22-03-2026
+Claim Amount: INR 21,500
+Repair Workshop: DEMO AUTO CARE
+Invoice Number: DEMO-INV-19473
+
+This document contains fictional demonstration information.

@@ -1,0 +1,8 @@
+method,mean_confidence,word_count,recognized_characters
+original,89.96,46,353
+grayscale,89.96,46,353
+clahe,89.89,46,354
+otsu,87.46,46,354
+adaptive_mean,93.09,46,354
+adaptive_gaussian,88.39,46,354
+morphology_opening,89.44,36,285

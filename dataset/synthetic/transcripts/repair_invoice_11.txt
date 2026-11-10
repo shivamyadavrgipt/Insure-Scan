@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-98938
+Workshop Name: TEST VEHICLE REPAIRS
+Customer Name: Rohan Mishra
+Vehicle Registration: UP 97 GH 9369
+Repair Date: 11-03-2026
+Labour Charges: INR 7,447
+Parts Cost: INR 20,163
+Total Amount: INR 27,610
+
+This document contains fictional demonstration information.

@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-940699
+Insured Name: Ananya Singh
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 69 AB 1966
+Insured Declared Value: INR 924,000
+Premium Amount: INR 8,961
+Coverage Type: Own Damage
+
+This document contains fictional demonstration information.

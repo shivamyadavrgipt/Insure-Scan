@@ -1,0 +1,122 @@
+{
+  "document_type": "motor_claim_form",
+  "classification": {
+    "label": "motor_claim_form",
+    "confidence": 0.99,
+    "scores": {
+      "motor_claim_form": 4,
+      "policy_document": 0,
+      "repair_invoice": 2,
+      "vehicle_registration": 1,
+      "medical_bill": 0
+    },
+    "evidence": [
+      "claim form",
+      "claim reference",
+      "incident date",
+      "claim amount"
+    ],
+    "method": "keyword_rule_baseline"
+  },
+  "fields": {
+    "claim_reference": {
+      "value": "DEMO—2026—0042",
+      "evidence": "Claim Reference: DEMO—2026—0042",
+      "confidence": 0.9,
+      "status": "extracted"
+    },
+    "policy_number": {
+      "value": "POL—SAMPLE-908172",
+      "evidence": "Policy Number: POL—SAMPLE-908172",
+      "confidence": 0.9,
+      "status": "extracted"
+    },
+    "policy_holder": {
+      "value": "SAMPLE CUSTOMER",
+      "evidence": "Policy Holder: SAMPLE CUSTOMER",
+      "confidence": 0.9,
+      "status": "extracted"
+    },
+    "vehicle_registration": {
+      "value": "UP 00 AB 1234",
+      "evidence": "Vehicle Registration: UP 00 AB 1234",
+      "confidence": 0.9,
+      "status": "extracted"
+    },
+    "incident_date": {
+      "value": "08-11-2026",
+      "evidence": "Incident Date: 08-11-2026",
+      "confidence": 0.9,
+      "status": "extracted"
+    },
+    "claim_amount": {
+      "value": "48,500",
+      "evidence": "Claim Amount: INR 48,500",
+      "confidence": 0.9,
+      "status": "extracted"
+    },
+    "repair_workshop": {
+      "value": "SAMPLE AUTO REPAIRS",
+      "evidence": "Repair Workshop: SAMPLE AUTO REPAIRS",
+      "confidence": 0.9,
+      "status": "extracted"
+    },
+    "invoice_number": {
+      "value": "INV-DEMO-—7781",
+      "evidence": "Invoice Number: INV-DEMO-—7781",
+      "confidence": 0.9,
+      "status": "extracted"
+    }
+  },
+  "validation": {
+    "checks": {
+      "claim_reference": {
+        "status": "pass",
+        "errors": []
+      },
+      "policy_number": {
+        "status": "pass",
+        "errors": []
+      },
+      "policy_holder": {
+        "status": "pass",
+        "errors": []
+      },
+      "vehicle_registration": {
+        "status": "pass",
+        "errors": []
+      },
+      "incident_date": {
+        "status": "pass",
+        "errors": []
+      },
+      "claim_amount": {
+        "status": "pass",
+        "errors": []
+      },
+      "repair_workshop": {
+        "status": "pass",
+        "errors": []
+      },
+      "invoice_number": {
+        "status": "pass",
+        "errors": []
+      }
+    },
+    "requires_human_review": false,
+    "review_reasons": [],
+    "disclaimer": "Format checks do not verify identity, ownership, policy validity or claim legitimacy."
+  },
+  "ocr_text": "SAMPLE MOTOR INSURANCE CLAIM FORM Claim Reference: DEMO—2026—0042 Policy Number: POL—SAMPLE-908172 Policy Holder: SAMPLE CUSTOMER Vehicle Registration: UP 00 AB 1234 Incident Date: 08-11-2026 Claim Amount: INR 48,500 Repair Workshop: SAMPLE AUTO REPAIRS Invoice Number: INV-DEMO-—7781 This is synthetic demonstration data. Not a valid insurance document",
+  "notes": [
+    "Rule-based baseline; classification confidence is heuristic, not calibrated.",
+    "Extracted values are OCR-derived and require human verification before claim processing.",
+    "Missing fields are returned as null; no government identity or policy database is queried."
+  ],
+  "ocr": {
+    "mean_confidence": 89.96,
+    "word_count": 46,
+    "language": "eng",
+    "config": "--oem 3 --psm 6"
+  }
+}

@@ -1,0 +1,13 @@
+VEHICLE REPAIR TAX INVOICE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Invoice Number: DEMO-INV-61169
+Workshop Name: SAMPLE MOTOR WORKS
+Customer Name: Ishita Rao
+Vehicle Registration: UP 23 CD 4761
+Repair Date: 13-09-2026
+Labour Charges: INR 7,133
+Parts Cost: INR 37,579
+Total Amount: INR 44,712
+
+This document contains fictional demonstration information.

@@ -1,0 +1,13 @@
+MOTOR INSURANCE CLAIM FORM
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Claim Reference: DEMO-CLM-40611
+Policy Number: DEMO-POL-498526
+Policy Holder: Ishita Patel
+Vehicle Registration: UP 65 AB 4062
+Incident Date: 23-04-2026
+Claim Amount: INR 133,000
+Repair Workshop: TEST VEHICLE REPAIRS
+Invoice Number: DEMO-INV-12744
+
+This document contains fictional demonstration information.

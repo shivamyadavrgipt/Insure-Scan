@@ -1,0 +1,12 @@
+MOTOR INSURANCE POLICY SCHEDULE
+SYNTHETIC DATA - FOR ACADEMIC DEMONSTRATION ONLY
+
+Policy Number: DEMO-POL-919308
+Insured Name: Vivaan Khan
+Policy Period: 01-04-2026 to 31-03-2027
+Vehicle Registration: UP 52 AB 4340
+Insured Declared Value: INR 368,000
+Premium Amount: INR 16,997
+Coverage Type: Comprehensive
+
+This document contains fictional demonstration information.
