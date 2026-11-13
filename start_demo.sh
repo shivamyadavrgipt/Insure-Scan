@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")"
-if [ ! -d .venv ]; then
+VENV_PYTHON="$PWD/.venv/bin/python"
+if [ ! -f "$VENV_PYTHON" ]; then
   python3 -m venv .venv
 fi
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r backend/requirements.txt
-python demo_server.py
+"$VENV_PYTHON" -m pip install --upgrade pip
+"$VENV_PYTHON" -m pip install -r backend/requirements.txt
+exec "$VENV_PYTHON" demo_server.py
